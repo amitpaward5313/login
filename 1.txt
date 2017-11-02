@@ -3,3 +3,4 @@ coolpad
 coolpad1
 mi note 4
 ROM
+ROM2
