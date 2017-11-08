@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/amitpaward5313/login.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[ptc]
+acceptablebranches = refs/heads/master refs/heads/br1 refs/heads/br2 refs/heads/branch0 refs/heads/branch1 refs/heads/branch2
+urlpattern = https://github.com/amitpaward5313/login.git/commit/<SHAID>
